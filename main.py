@@ -4,8 +4,8 @@ from TurnManager import TurnManager
 
 turns = TurnManager()
 
-bot = Bot('e',turns)
-me = Human('a',turns)
+bot = Bot('Bot',turns)
+me = Human('You',turns)
 turns.add(bot)
 turns.add(me)
 while True:
